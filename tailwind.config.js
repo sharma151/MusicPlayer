@@ -41,7 +41,7 @@ module.exports = {
       "gradient-custom": "linear-gradient(to right, #f3a847, #f6d365)", // Custom gradient
     },
     bgexample: {
-      "background-image": "url('../images/kk.png')",
+      "background-image": url("../images/kk.png"),
     },
   },
   plugins: [],
