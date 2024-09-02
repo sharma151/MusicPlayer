@@ -50,6 +50,8 @@ module.exports = {
           "linear-gradient(210.57deg, #F62545 1.42%, #590819 96.55%)",
         "button-background":
           "linear-gradient(180deg, #F8921A 0%, #F62545 100%)",
+        "hover-background":
+          " linear-gradient(180deg, #F8921A 0%, #F62545 100%)",
       },
     },
   },
