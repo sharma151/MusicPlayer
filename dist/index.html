@@ -12,12 +12,12 @@
     </style> -->
 </head>
 
-<body>
+<body class="">
 
-    <div id="container" class="  bg-background: #FFFFFF flex  h-full ">
+    <div id="container" class=" dark:bg-[#171616]   flex  h-full max-w-[1512px] w-full  mx-auto ">
         <!--  first div Div -->
-        <div id="aside" class=" shadow-custom-shadow w-262px">
-            <div id="navigationbtn" class=" flex  pl-16 pt-4">
+        <div id="aside" class=" shadow-custom-shadow ">
+            <div id="navigationbtn" class=" flex  pl-16 pt-7">
                 <a href="" class="px-1"><svg width="15" height="15" viewBox="0 0 23 23" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <circle cx="11.5" cy="11.5" r="11.5" fill="#A355E0" fill-opacity="0.71" />
@@ -36,72 +36,65 @@
                 </a>
             </div>
             <div id="navbar" class="">
-                <ul class="  pt-4  w-[262px] flex flex-col items-start ">
+                <ul class="  dark:text-white pt-16  w-[262px] flex flex-col items-start ">
                     <li class=" flex  gap-1  pl-16 py-4    pr-3 hover:bg-hover-background   rounded-r-full">
                         <div class="">
-                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <svg class=" fill-current text-black dark:text-white" width="30" height="30"
+                                viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
-                                    d="M12.5 23.75V17.5H17.5V23.75C17.5 24.4375 18.0625 25 18.75 25H22.5C23.1875 25 23.75 24.4375 23.75 23.75V15H25.875C26.45 15 26.725 14.2875 26.2875 13.9125L15.8375 4.50002C15.3625 4.07502 14.6375 4.07502 14.1625 4.50002L3.7125 13.9125C3.2875 14.2875 3.55 15 4.125 15H6.25V23.75C6.25 24.4375 6.8125 25 7.5 25H11.25C11.9375 25 12.5 24.4375 12.5 23.75Z"
-                                    fill="black" />
+                                    d="M12.5 23.75V17.5H17.5V23.75C17.5 24.4375 18.0625 25 18.75 25H22.5C23.1875 25 23.75 24.4375 23.75 23.75V15H25.875C26.45 15 26.725 14.2875 26.2875 13.9125L15.8375 4.50002C15.3625 4.07502 14.6375 4.07502 14.1625 4.50002L3.7125 13.9125C3.2875 14.2875 3.55 15 4.125 15H6.25V23.75C6.25 24.4375 6.8125 25 7.5 25H11.25C11.9375 25 12.5 24.4375 12.5 23.75Z" />
                             </svg>
                         </div>
                         <a href="#" class="font-bold pt-1 font-inter text-l">Home</a>
                     </li>
                     <li class=" flex gap-1  pl-16  py-4    pr-3 hover:bg-hover-background  rounded-r-full">
                         <div>
-                            <svg width="20" height="26" viewBox="0 0 20 26" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <svg class=" fill-current text-black dark:text-white" width="20" height="26"
+                                viewBox="0 0 20 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
-                                    d="M12.1875 0.5H7.8125C7.1207 0.500021 6.45318 0.755009 5.93755 1.21621C5.42193 1.67742 5.09437 2.31249 5.0175 3H2.8125C2.06658 3 1.35121 3.29632 0.823762 3.82376C0.296316 4.35121 0 5.06658 0 5.8125V22.6875C0 23.4334 0.296316 24.1488 0.823762 24.6762C1.35121 25.2037 2.06658 25.5 2.8125 25.5H17.1875C17.5568 25.5 17.9226 25.4273 18.2638 25.2859C18.605 25.1446 18.9151 24.9374 19.1762 24.6762C19.4374 24.4151 19.6446 24.105 19.7859 23.7638C19.9273 23.4226 20 23.0568 20 22.6875V5.8125C20 5.44316 19.9273 5.07743 19.7859 4.7362C19.6446 4.39497 19.4374 4.08493 19.1762 3.82376C18.9151 3.5626 18.605 3.35543 18.2638 3.21409C17.9226 3.07275 17.5568 3 17.1875 3H14.9825C14.9056 2.31249 14.5781 1.67742 14.0624 1.21621C13.5468 0.755009 12.8793 0.500021 12.1875 0.5ZM7.8125 2.375H12.1875C12.4361 2.375 12.6746 2.47377 12.8504 2.64959C13.0262 2.8254 13.125 3.06386 13.125 3.3125C13.125 3.56114 13.0262 3.7996 12.8504 3.97541C12.6746 4.15123 12.4361 4.25 12.1875 4.25H7.8125C7.56386 4.25 7.3254 4.15123 7.14959 3.97541C6.97377 3.7996 6.875 3.56114 6.875 3.3125C6.875 3.06386 6.97377 2.8254 7.14959 2.64959C7.3254 2.47377 7.56386 2.375 7.8125 2.375ZM10.625 10.8125C10.625 10.5639 10.7238 10.3254 10.8996 10.1496C11.0754 9.97377 11.3139 9.875 11.5625 9.875H15.9375C16.1861 9.875 16.4246 9.97377 16.6004 10.1496C16.7762 10.3254 16.875 10.5639 16.875 10.8125C16.875 11.0611 16.7762 11.2996 16.6004 11.4754C16.4246 11.6512 16.1861 11.75 15.9375 11.75H11.5625C11.3139 11.75 11.0754 11.6512 10.8996 11.4754C10.7238 11.2996 10.625 11.0611 10.625 10.8125ZM11.5625 16.75H15.9375C16.1861 16.75 16.4246 16.8488 16.6004 17.0246C16.7762 17.2004 16.875 17.4389 16.875 17.6875C16.875 17.9361 16.7762 18.1746 16.6004 18.3504C16.4246 18.5262 16.1861 18.625 15.9375 18.625H11.5625C11.3139 18.625 11.0754 18.5262 10.8996 18.3504C10.7238 18.1746 10.625 17.9361 10.625 17.6875C10.625 17.4389 10.7238 17.2004 10.8996 17.0246C11.0754 16.8488 11.3139 16.75 11.5625 16.75ZM8.475 10.225L5.975 12.725C5.79922 12.9006 5.56094 12.9992 5.3125 12.9992C5.06406 12.9992 4.82578 12.9006 4.65 12.725L3.4 11.475C3.30789 11.3892 3.23401 11.2857 3.18277 11.1707C3.13153 11.0557 3.10398 10.9315 3.10176 10.8057C3.09954 10.6798 3.1227 10.5547 3.16985 10.438C3.217 10.3213 3.28718 10.2152 3.3762 10.1262C3.46523 10.0372 3.57127 9.967 3.688 9.91985C3.80474 9.87269 3.92977 9.84954 4.05565 9.85176C4.18153 9.85398 4.30567 9.88153 4.42067 9.93277C4.53567 9.98401 4.63917 10.0579 4.725 10.15L5.3125 10.7375L7.15 8.9C7.23583 8.80789 7.33933 8.73401 7.45433 8.68277C7.56933 8.63153 7.69347 8.60398 7.81935 8.60176C7.94523 8.59954 8.07026 8.62269 8.187 8.66985C8.30373 8.717 8.40977 8.78718 8.4988 8.8762C8.58782 8.96523 8.658 9.07127 8.70515 9.188C8.75231 9.30474 8.77546 9.42977 8.77324 9.55565C8.77102 9.68153 8.74347 9.80567 8.69223 9.92067C8.64099 10.0357 8.56711 10.1392 8.475 10.225ZM8.475 15.775C8.65056 15.9508 8.74918 16.1891 8.74918 16.4375C8.74918 16.6859 8.65056 16.9242 8.475 17.1L5.975 19.6C5.79922 19.7756 5.56094 19.8742 5.3125 19.8742C5.06406 19.8742 4.82578 19.7756 4.65 19.6L3.4 18.35C3.30789 18.2642 3.23401 18.1607 3.18277 18.0457C3.13153 17.9307 3.10398 17.8065 3.10176 17.6807C3.09954 17.5548 3.1227 17.4297 3.16985 17.313C3.217 17.1963 3.28718 17.0902 3.3762 17.0012C3.46523 16.9122 3.57127 16.842 3.688 16.7948C3.80474 16.7477 3.92977 16.7245 4.05565 16.7268C4.18153 16.729 4.30567 16.7565 4.42067 16.8078C4.53567 16.859 4.63917 16.9329 4.725 17.025L5.3125 17.6125L7.15 15.775C7.32578 15.5994 7.56406 15.5008 7.8125 15.5008C8.06094 15.5008 8.29922 15.5994 8.475 15.775Z"
-                                    fill="black" />
+                                    d="M12.1875 0.5H7.8125C7.1207 0.500021 6.45318 0.755009 5.93755 1.21621C5.42193 1.67742 5.09437 2.31249 5.0175 3H2.8125C2.06658 3 1.35121 3.29632 0.823762 3.82376C0.296316 4.35121 0 5.06658 0 5.8125V22.6875C0 23.4334 0.296316 24.1488 0.823762 24.6762C1.35121 25.2037 2.06658 25.5 2.8125 25.5H17.1875C17.5568 25.5 17.9226 25.4273 18.2638 25.2859C18.605 25.1446 18.9151 24.9374 19.1762 24.6762C19.4374 24.4151 19.6446 24.105 19.7859 23.7638C19.9273 23.4226 20 23.0568 20 22.6875V5.8125C20 5.44316 19.9273 5.07743 19.7859 4.7362C19.6446 4.39497 19.4374 4.08493 19.1762 3.82376C18.9151 3.5626 18.605 3.35543 18.2638 3.21409C17.9226 3.07275 17.5568 3 17.1875 3H14.9825C14.9056 2.31249 14.5781 1.67742 14.0624 1.21621C13.5468 0.755009 12.8793 0.500021 12.1875 0.5ZM7.8125 2.375H12.1875C12.4361 2.375 12.6746 2.47377 12.8504 2.64959C13.0262 2.8254 13.125 3.06386 13.125 3.3125C13.125 3.56114 13.0262 3.7996 12.8504 3.97541C12.6746 4.15123 12.4361 4.25 12.1875 4.25H7.8125C7.56386 4.25 7.3254 4.15123 7.14959 3.97541C6.97377 3.7996 6.875 3.56114 6.875 3.3125C6.875 3.06386 6.97377 2.8254 7.14959 2.64959C7.3254 2.47377 7.56386 2.375 7.8125 2.375ZM10.625 10.8125C10.625 10.5639 10.7238 10.3254 10.8996 10.1496C11.0754 9.97377 11.3139 9.875 11.5625 9.875H15.9375C16.1861 9.875 16.4246 9.97377 16.6004 10.1496C16.7762 10.3254 16.875 10.5639 16.875 10.8125C16.875 11.0611 16.7762 11.2996 16.6004 11.4754C16.4246 11.6512 16.1861 11.75 15.9375 11.75H11.5625C11.3139 11.75 11.0754 11.6512 10.8996 11.4754C10.7238 11.2996 10.625 11.0611 10.625 10.8125ZM11.5625 16.75H15.9375C16.1861 16.75 16.4246 16.8488 16.6004 17.0246C16.7762 17.2004 16.875 17.4389 16.875 17.6875C16.875 17.9361 16.7762 18.1746 16.6004 18.3504C16.4246 18.5262 16.1861 18.625 15.9375 18.625H11.5625C11.3139 18.625 11.0754 18.5262 10.8996 18.3504C10.7238 18.1746 10.625 17.9361 10.625 17.6875C10.625 17.4389 10.7238 17.2004 10.8996 17.0246C11.0754 16.8488 11.3139 16.75 11.5625 16.75ZM8.475 10.225L5.975 12.725C5.79922 12.9006 5.56094 12.9992 5.3125 12.9992C5.06406 12.9992 4.82578 12.9006 4.65 12.725L3.4 11.475C3.30789 11.3892 3.23401 11.2857 3.18277 11.1707C3.13153 11.0557 3.10398 10.9315 3.10176 10.8057C3.09954 10.6798 3.1227 10.5547 3.16985 10.438C3.217 10.3213 3.28718 10.2152 3.3762 10.1262C3.46523 10.0372 3.57127 9.967 3.688 9.91985C3.80474 9.87269 3.92977 9.84954 4.05565 9.85176C4.18153 9.85398 4.30567 9.88153 4.42067 9.93277C4.53567 9.98401 4.63917 10.0579 4.725 10.15L5.3125 10.7375L7.15 8.9C7.23583 8.80789 7.33933 8.73401 7.45433 8.68277C7.56933 8.63153 7.69347 8.60398 7.81935 8.60176C7.94523 8.59954 8.07026 8.62269 8.187 8.66985C8.30373 8.717 8.40977 8.78718 8.4988 8.8762C8.58782 8.96523 8.658 9.07127 8.70515 9.188C8.75231 9.30474 8.77546 9.42977 8.77324 9.55565C8.77102 9.68153 8.74347 9.80567 8.69223 9.92067C8.64099 10.0357 8.56711 10.1392 8.475 10.225ZM8.475 15.775C8.65056 15.9508 8.74918 16.1891 8.74918 16.4375C8.74918 16.6859 8.65056 16.9242 8.475 17.1L5.975 19.6C5.79922 19.7756 5.56094 19.8742 5.3125 19.8742C5.06406 19.8742 4.82578 19.7756 4.65 19.6L3.4 18.35C3.30789 18.2642 3.23401 18.1607 3.18277 18.0457C3.13153 17.9307 3.10398 17.8065 3.10176 17.6807C3.09954 17.5548 3.1227 17.4297 3.16985 17.313C3.217 17.1963 3.28718 17.0902 3.3762 17.0012C3.46523 16.9122 3.57127 16.842 3.688 16.7948C3.80474 16.7477 3.92977 16.7245 4.05565 16.7268C4.18153 16.729 4.30567 16.7565 4.42067 16.8078C4.53567 16.859 4.63917 16.9329 4.725 17.025L5.3125 17.6125L7.15 15.775C7.32578 15.5994 7.56406 15.5008 7.8125 15.5008C8.06094 15.5008 8.29922 15.5994 8.475 15.775Z" />
                             </svg>
                         </div>
                         <a href="#" class="font-bold pt-1 font-inter text-l">Activity</a>
                     </li>
                     <li class=" flex  gap-1 pl-16 py-4     pr-3 hover:bg-hover-background rounded-r-full">
                         <div class="pt-0.5">
-                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <svg class=" fill-current text-black dark:text-white" width="26" height="26"
+                                viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
-                                    d="M13 25.5C6.09625 25.5 0.5 19.9037 0.5 13C0.5 6.09625 6.09625 0.5 13 0.5C19.9037 0.5 25.5 6.09625 25.5 13C25.5 19.9037 19.9037 25.5 13 25.5ZM17.3075 10.46C16.8766 9.73136 16.2686 9.12339 15.54 8.6925L8.6925 15.54C9.12339 16.2686 9.73136 16.8766 10.46 17.3075L17.3075 10.46Z"
-                                    fill="black" />
+                                    d="M13 25.5C6.09625 25.5 0.5 19.9037 0.5 13C0.5 6.09625 6.09625 0.5 13 0.5C19.9037 0.5 25.5 6.09625 25.5 13C25.5 19.9037 19.9037 25.5 13 25.5ZM17.3075 10.46C16.8766 9.73136 16.2686 9.12339 15.54 8.6925L8.6925 15.54C9.12339 16.2686 9.73136 16.8766 10.46 17.3075L17.3075 10.46Z" />
                             </svg>
                         </div>
                         <a href="#" class="font-bold pt-1 font-inter text-l">Discover</a>
                     </li>
                     <li class=" flex   gap-2 pl-16  py-4   pr-3 hover:bg-hover-background  rounded-r-full">
                         <div>
-                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <svg class=" fill-current text-black dark:text-white" width="30" height="30"
+                                viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
-                                    d="M24 25.5C24 26.6935 23.5259 27.8381 22.682 28.682C21.8381 29.5259 20.6935 30 19.5 30H16.5C15.3065 30 14.1619 29.5259 13.318 28.682C12.4741 27.8381 12 26.6935 12 25.5C12 24.3065 12.4741 23.1619 13.318 22.318C14.1619 21.4741 15.3065 21 16.5 21H19.5C20.0108 20.9992 20.5181 21.0855 21 21.255V1.5L30 0V6L24 7.005V25.5ZM0 4.5H18V7.5H0V4.5ZM0 10.5H18V13.5H0V10.5ZM0 16.5H18V19.5H0V16.5ZM0 22.5H9V25.5H0V22.5Z"
-                                    fill="black" />
+                                    d="M24 25.5C24 26.6935 23.5259 27.8381 22.682 28.682C21.8381 29.5259 20.6935 30 19.5 30H16.5C15.3065 30 14.1619 29.5259 13.318 28.682C12.4741 27.8381 12 26.6935 12 25.5C12 24.3065 12.4741 23.1619 13.318 22.318C14.1619 21.4741 15.3065 21 16.5 21H19.5C20.0108 20.9992 20.5181 21.0855 21 21.255V1.5L30 0V6L24 7.005V25.5ZM0 4.5H18V7.5H0V4.5ZM0 10.5H18V13.5H0V10.5ZM0 16.5H18V19.5H0V16.5ZM0 22.5H9V25.5H0V22.5Z" />
                             </svg>
                         </div>
                         <a href="" class="font-bold pt-1 font-inter text-l ">liked songs</a>
                     </li>
                     <li class=" flex  gap-2 pl-16 py-4  pr-3 hover:bg-hover-background  rounded-r-full">
                         <div>
-                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <svg class=" fill-current text-black dark:text-white" width="30" height="30"
+                                viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
-                                    d="M15 30C11.0218 30 7.20644 28.4196 4.3934 25.6066C1.58035 22.7936 0 18.9782 0 15C0 11.0218 1.58035 7.20644 4.3934 4.3934C7.20644 1.58035 11.0218 0 15 0C18.9782 0 22.7936 1.58035 25.6066 4.3934C28.4196 7.20644 30 11.0218 30 15C30 18.9782 28.4196 22.7936 25.6066 25.6066C22.7936 28.4196 18.9782 30 15 30ZM19.3687 8.4375C17.0812 8.4375 15.9375 9.375 15.0131 10.5675C14.0869 9.375 12.9431 8.4375 10.6538 8.4375C8.72625 8.4375 6.58687 9.9075 6.58687 13.125C6.58687 15.9356 9.38625 19.5619 12.6731 21.5944C13.6481 22.1963 14.3419 22.4925 15.0131 22.5019C15.6825 22.4925 16.3781 22.1963 17.3512 21.5944C20.6381 19.5619 23.4375 15.9375 23.4375 13.125C23.4375 9.9075 21.3 8.4375 19.3687 8.4375Z"
-                                    fill="black" />
+                                    d="M15 30C11.0218 30 7.20644 28.4196 4.3934 25.6066C1.58035 22.7936 0 18.9782 0 15C0 11.0218 1.58035 7.20644 4.3934 4.3934C7.20644 1.58035 11.0218 0 15 0C18.9782 0 22.7936 1.58035 25.6066 4.3934C28.4196 7.20644 30 11.0218 30 15C30 18.9782 28.4196 22.7936 25.6066 25.6066C22.7936 28.4196 18.9782 30 15 30ZM19.3687 8.4375C17.0812 8.4375 15.9375 9.375 15.0131 10.5675C14.0869 9.375 12.9431 8.4375 10.6538 8.4375C8.72625 8.4375 6.58687 9.9075 6.58687 13.125C6.58687 15.9356 9.38625 19.5619 12.6731 21.5944C13.6481 22.1963 14.3419 22.4925 15.0131 22.5019C15.6825 22.4925 16.3781 22.1963 17.3512 21.5944C20.6381 19.5619 23.4375 15.9375 23.4375 13.125C23.4375 9.9075 21.3 8.4375 19.3687 8.4375Z" />
                             </svg>
                         </div>
                         <a href="#" class="font-bold pt-1 font-inter text-l">My playlist</a>
                     </li>
                     <li class=" flex   gap-2 pl-16 py-4    pr-3 hover:bg-hover-background rounded-r-full">
                         <div class="pt-0.5">
-                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <svg class=" fill-current text-black dark:text-white" width="26" height="26"
+                                viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
-                                    d="M18 10.5C18 11.8261 17.4732 13.0979 16.5355 14.0355C15.5979 14.9732 14.3261 15.5 13 15.5C11.6739 15.5 10.4021 14.9732 9.46447 14.0355C8.52678 13.0979 8 11.8261 8 10.5C8 9.17392 8.52678 7.90215 9.46447 6.96447C10.4021 6.02678 11.6739 5.5 13 5.5C14.3261 5.5 15.5979 6.02678 16.5355 6.96447C17.4732 7.90215 18 9.17392 18 10.5Z"
-                                    fill="black" />
+                                    d="M18 10.5C18 11.8261 17.4732 13.0979 16.5355 14.0355C15.5979 14.9732 14.3261 15.5 13 15.5C11.6739 15.5 10.4021 14.9732 9.46447 14.0355C8.52678 13.0979 8 11.8261 8 10.5C8 9.17392 8.52678 7.90215 9.46447 6.96447C10.4021 6.02678 11.6739 5.5 13 5.5C14.3261 5.5 15.5979 6.02678 16.5355 6.96447C17.4732 7.90215 18 9.17392 18 10.5Z" />
                                 <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M12.49 25.49C5.82312 25.2225 0.5 19.7325 0.5 13C0.5 6.09625 6.09625 0.5 13 0.5C19.9037 0.5 25.5 6.09625 25.5 13C25.5 19.9037 19.9037 25.5 13 25.5C12.9429 25.5004 12.8858 25.5004 12.8287 25.5C12.7156 25.5 12.6025 25.4963 12.49 25.49ZM4.97875 20.8875C4.88529 20.6191 4.85348 20.3331 4.88568 20.0507C4.91787 19.7684 5.01325 19.4969 5.16474 19.2564C5.31622 19.016 5.51991 18.8127 5.7607 18.6617C6.00149 18.5108 6.27319 18.416 6.55562 18.3844C11.4281 17.845 14.6019 17.8937 19.4506 18.3956C19.7334 18.4251 20.0058 18.5187 20.247 18.6693C20.4882 18.8199 20.6918 19.0236 20.8423 19.2648C20.9929 19.506 21.0864 19.7784 21.1158 20.0612C21.1452 20.3441 21.1096 20.6299 21.0119 20.8969C23.09 18.7943 24.2537 15.9562 24.25 13C24.25 6.78687 19.2131 1.75 13 1.75C6.78687 1.75 1.75 6.78687 1.75 13C1.75 16.0725 2.98188 18.8575 4.97875 20.8875Z"
-                                    fill="black" />
+                                    d="M12.49 25.49C5.82312 25.2225 0.5 19.7325 0.5 13C0.5 6.09625 6.09625 0.5 13 0.5C19.9037 0.5 25.5 6.09625 25.5 13C25.5 19.9037 19.9037 25.5 13 25.5C12.9429 25.5004 12.8858 25.5004 12.8287 25.5C12.7156 25.5 12.6025 25.4963 12.49 25.49ZM4.97875 20.8875C4.88529 20.6191 4.85348 20.3331 4.88568 20.0507C4.91787 19.7684 5.01325 19.4969 5.16474 19.2564C5.31622 19.016 5.51991 18.8127 5.7607 18.6617C6.00149 18.5108 6.27319 18.416 6.55562 18.3844C11.4281 17.845 14.6019 17.8937 19.4506 18.3956C19.7334 18.4251 20.0058 18.5187 20.247 18.6693C20.4882 18.8199 20.6918 19.0236 20.8423 19.2648C20.9929 19.506 21.0864 19.7784 21.1158 20.0612C21.1452 20.3441 21.1096 20.6299 21.0119 20.8969C23.09 18.7943 24.2537 15.9562 24.25 13C24.25 6.78687 19.2131 1.75 13 1.75C6.78687 1.75 1.75 6.78687 1.75 13C1.75 16.0725 2.98188 18.8575 4.97875 20.8875Z" />
                             </svg>
                         </div>
                         <a href="#" class="font-bold pt-1 font-inter text-l">Account</a>
@@ -126,10 +119,11 @@
                                         fill="black" />
                                 </g>
                             </svg>
+
                         </div>
                         <a href="#" class="font-bold pt-1 font-inter text-l">Setting</a>
                     </li>
-                    <li class=" flex   gap-2 pl-16 pt-52 rounded-r-full">
+                    <li class=" flex   gap-2 pl-16 pt-64 rounded-r-full ">
                         <div class="pt-1">
                             <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -145,16 +139,16 @@
         </div>
 
         <!-- Middle Div -->
-        <div id="main" class=" w-854px ">
+        <div id="main" class="  ">
             <nav class="main__navbar  flex justify-between pt-5  mx-10 ">
-                <ul class="flex font-inter text-[15px]  ">
+                <ul class="flex font-inter text-[15px] dark:text-white ">
                     <li><a href="#" class="px-3">Discover</a></li>
                     <li><a href="#" class="px-3">latest</a></li>
                     <li><a href="#" class="px-3">Trending</a></li>
                     <li><a href="#" class="px-3">Popular</a></li>
                 </ul>
-                <form class="flex bg-white w-219px h-6 gap-1 rounded-[40px] shadow-custom ">
-                    <svg class="mt-1 " width="16" height="16" viewBox="0 0 16 16" fill="none"
+                <form class="flex bg-white  w-219px h-6 gap-1 rounded-[40px] shadow-custom dark:bg-black  ">
+                    <svg class="mt-1  " width="16" height="16" viewBox="0 0 16 16" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M11.25 11.25L14.25 14.25" stroke="black" stroke-width="1.5" stroke-linecap="round"
                             stroke-linejoin="round" />
@@ -162,7 +156,8 @@
                             d="M7.5 12.25C10.1234 12.25 12.25 10.1234 12.25 7.5C12.25 4.87665 10.1234 2.75 7.5 2.75C4.87665 2.75 2.75 4.87665 2.75 7.5C2.75 10.1234 4.87665 12.25 7.5 12.25Z"
                             stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
-                    <input type="text" placeholder="     Search" name="search" class=" focus:outline-none h-6">
+                    <input type="text" placeholder="     Search" name="search"
+                        class="  dark:bg-black focus:outline-none h-6">
                 </form>
                 <div class="menubar relative top-[-5px] pl-10">
                     <a href="#">
@@ -195,10 +190,11 @@
                 </div>
             </nav>
             <section class="popular-artists ">
-                <ul class="flex justify-between mx-10 pt-2">
+                <ul class="flex justify-between mx-10 pt-2 dark:text-white">
                     <li class="font-bold text-[20px] font-inter">Popular Artists</li>
-                    <li class="text-[15px] font-inter flex"><a href=""> View All</a><svg class="mt-1.5 ml-1" width="7"
-                            height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <li class="text-[15px] font-inter flex"><a href=""> View All</a><svg
+                            class="mt-1.5 ml-1" width="7" height="12" fill="none"
+                            viewBox="0 0 7 12" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 11L6 6L1 1" stroke="black" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" />
                         </svg>
@@ -209,41 +205,41 @@
                         <div class=" h-[82px] w-[82px] rounded-full bg-cover bg-center "
                             style="background-image: url('../images/kk.png');">
                         </div>
-                        <p class="pl-8 font-inter text-[16px]">KK</p>
+                        <p class="pl-8 font-inter text-[16px]  dark:text-white">KK</p>
                     </div>
                     <div class="arijit singh  ">
                         <div class=" h-[82px] w-[82px] rounded-full bg-cover bg-center "
                             style="background-image: url('../images/arijit.png');">
                         </div>
-                        <p class="font-inter text-[16px]">Arijit singh</p>
+                        <p class="font-inter text-[16px]  dark:text-white">Arijit singh</p>
                     </div>
                     <div class="shreya ghosal  ">
                         <div class=" h-[82px] w-[82px] rounded-full bg-cover bg-center ml-2 "
                             style="background-image: url('../images/shreya.png');">
                         </div>
-                        <p class="font-inter text-[16px]">Shrey ghosal</p>
+                        <p class="font-inter text-[16px]  dark:text-white">Shrey ghosal</p>
                     </div>
                     <div class="Talwiinder ">
                         <div class=" h-[82px] w-[82px] rounded-full bg-cover bg-center "
                             style="background-image: url('../images/talwiinder.png');">
                         </div>
-                        <p class="font-inter text-[16px]">Talwiinder</p>
+                        <p class="font-inter text-[16px]  dark:text-white">Talwiinder</p>
                     </div>
                     <div class="akhil  ">
                         <div class=" h-[82px] w-[82px] rounded-full bg-cover bg-center "
                             style="background-image: url('../images/akhil.png');">
                         </div>
-                        <p class="font-inter text-[16px] pl-5">Akhil</p>
+                        <p class="font-inter text-[16px] pl-5  dark:text-white">Akhil</p>
                     </div>
                     <div class="sidhu moose wala  ">
                         <div class=" h-[82px] w-[82px] rounded-full bg-cover bg-center ml-6"
                             style="background-image: url('../images/sidhoo.png');">
                         </div>
-                        <p class="font-inter text-[16px]">Sidhu Moose Wala</p>
+                        <p class="font-inter text-[16px]  dark:text-white">Sidhu Moose Wala</p>
                     </div>
                 </div>
             </section>
-            <ul class="flex justify-between mx-10 pt-2">
+            <ul class="flex justify-between mx-10 pt-2  dark:text-white">
                 <li class="font-bold text-[20px] font-inter">Trending Songs</li>
                 <li class="text-[15px] font-inter flex"><a href=""> View All</a><svg class="mt-1.5 ml-1" width="7"
                         height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -259,8 +255,8 @@
                             style="background-image: url('../images/90ssafarnama.png');">
                         </div>
                         <div class="text flex">
-                            <p><a href="" class="font-bold font-inter text-[20px]">90s Safarnama<br><span
-                                        class="font-thin text-[16px] ">Playlist</span></a>
+                            <p><a href="" class="font-bold font-inter text-[20px] dark:text-white">90s
+                                    Safarnama<br><span class="font-thin text-[16px] ">Playlist</span></a>
                             </p>
                             <div class="like pt-1 ml-8">
                                 <button>
@@ -279,12 +275,12 @@
                             style="background-image: url('../images/uncutbollywood.png');">
                         </div>
                         <div class="text flex">
-                            <p><a href="" class="font-bold font-inter text-[20px]">Uncut Bollywood<br><span
-                                        class="font-thin text-[16px] ">Playlist</span></a>
+                            <p><a href="" class="font-bold font-inter text-[20px]  dark:text-white">Uncut
+                                    Bollywood<br><span class="font-thin text-[16px] ">Playlist</span></a>
                             </p>
                             <div class="like pt-1 ml-4">
                                 <button>
-                                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                    <svg class="fill-current dark:text-white" width="20" height="19" viewBox="0 0 20 19" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M10.1 15.55L10 15.65L9.89 15.55C5.14 11.24 2 8.39 2 5.5C2 3.5 3.5 2 5.5 2C7.04 2 8.54 3 9.07 4.36H10.93C11.46 3 12.96 2 14.5 2C16.5 2 18 3.5 18 5.5C18 8.39 14.86 11.24 10.1 15.55ZM14.5 0C12.76 0 11.09 0.81 10 2.08C8.91 0.81 7.24 0 5.5 0C2.42 0 0 2.41 0 5.5C0 9.27 3.4 12.36 8.55 17.03L10 18.35L11.45 17.03C16.6 12.36 20 9.27 20 5.5C20 2.41 17.58 0 14.5 0Z"
@@ -300,8 +296,8 @@
                             style="background-image: url('../images/presentingkk.png');">
                         </div>
                         <div class="text flex">
-                            <p><a href="" class="font-bold font-inter text-[20px]">Presenting KK<br><span
-                                        class="font-thin text-[16px] ">Playlist</span></a>
+                            <p><a href="" class="font-bold font-inter text-[20px]  dark:text-white">Presenting
+                                    KK<br><span class="font-thin text-[16px] ">Playlist</span></a>
                             </p>
                             <div class="like pt-1 ml-11"> <button>
                                     <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
@@ -316,7 +312,7 @@
                     </div>
                 </div>
             </section>
-            <ul class="flex justify-between mx-10 mt-4">
+            <ul class="flex justify-between mx-10 mt-4  dark:text-white">
                 <li class="font-bold text-[20px] font-inter">Recently Played</li>
                 <li class="text-[15px] font-inter flex"><a href=""> View All</a><svg class="mt-1.5 ml-1" width="7"
                         height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -365,8 +361,8 @@
                             style="background-image: url('../images/aajamahi.png');"></div>
                         <div
                             class="songbar h-[67px]   flex rounded-full pl-20 relative top-[-73px] -z-10  shadow-custom">
-                            <p class="font-semibold text-lg pl-1 pt-2">Aaja Mahi <br><span
-                                    class="font-normal text-">AUR</span>
+                            <p class="font-semibold text-lg pl-1 pt-2 ">Aaja Mahi <br><span
+                                    class="font-normal ">AUR</span>
                             </p>
                             <div class="svgbar pt-4 pl-4">
                                 <svg width="120" height="26" viewBox="0 0 182 26" fill="none"
@@ -447,7 +443,7 @@
                             style="background-image: url('../images/images.png');"></div>
                         <div
                             class="songbar h-[67px]   flex rounded-full pl-20 relative top-[-73px] -z-10 shadow-custom">
-                            <p class="font-semibold text-lg pl-1 pt-2">Love <br><span class="font-normal text-">Zehr
+                            <p class="font-semibold text-lg pl-1 pt-2">Love <br><span class="font-normal  ">Zehr
                                     Vibe</span>
                             </p>
                             <div class="svgbar pt-4 pl-4">
@@ -530,12 +526,12 @@
 
         </div>
         <!-- Third Div -->
-        <div id="Activity" class=" shadow-custom-shadow  w-396px ">
+        <div id="Activity" class=" shadow-custom-shadow  ">
             <section id="first" class=" flex mx-6 mt-4  justify-between">
-                <p class="font-inter font-bold text-[20px]">Friend's Activity <br> <span
+                <p class="font-inter font-bold text-[20px]  dark:text-white">Friend's Activity <br> <span
                         class="font-normal text-[15px]"> 150 Friends</span></p>
-                <div class="svg shadow-friends-logo h-[50px] w-[50px] rounded-full ">
-                    <svg class="mt-2 ml-2" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                <div class="svg shadow-friends-logo h-[50px] w-[50px] rounded-full  ">
+                    <svg class="mt-2 ml-2 " width="30" height="30" viewBox="0 0 30 30" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M15 17.5C16.7262 17.5 18.2887 16.8 19.42 15.6687C20.55 14.5387 21.25 12.9763 21.25 11.25C21.25 9.52375 20.55 7.96125 19.42 6.83125C18.2887 5.7 16.7262 5 15 5C13.2738 5 11.7112 5.7 10.58 6.83125C9.45 7.96125 8.75 9.52375 8.75 11.25C8.75 12.9763 9.45 14.5387 10.58 15.6687C11.1598 16.2501 11.8487 16.7112 12.6072 17.0255C13.3658 17.3398 14.1789 17.501 15 17.5ZM25 18.75C25.4106 18.7508 25.8173 18.6706 26.1969 18.5138C26.5764 18.357 26.9212 18.1269 27.2115 17.8365C27.5019 17.5462 27.732 17.2014 27.8888 16.8219C28.0456 16.4423 28.1258 16.0356 28.125 15.625C28.125 14.7625 27.7762 13.9813 27.21 13.415C26.9201 13.1244 26.5756 12.8939 26.1963 12.7369C25.8171 12.5799 25.4105 12.4994 25 12.5C24.5894 12.4992 24.1827 12.5794 23.8031 12.7362C23.4236 12.893 23.0788 13.1231 22.7885 13.4135C22.4981 13.7038 22.268 14.0486 22.1112 14.4281C21.9544 14.8077 21.8742 15.2144 21.875 15.625C21.8743 16.0356 21.9547 16.4422 22.1115 16.8217C22.2683 17.2011 22.4985 17.5459 22.7888 17.8362C23.0791 18.1265 23.4239 18.3567 23.8033 18.5135C24.1828 18.6703 24.5894 18.7507 25 18.75ZM25 19.4875C23.3363 19.4875 22.085 19.995 21.3538 20.6975C19.96 19.5513 17.7563 18.75 15 18.75C12.1675 18.75 10.0063 19.56 8.635 20.705C7.89 19.9987 6.625 19.4875 5 19.4875C2.265 19.4875 0.625 20.85 0.625 22.215C0.625 22.8962 2.265 23.58 5 23.58C5.755 23.58 6.4325 23.5163 7.02875 23.4138L6.97875 23.7512C6.97875 25.0012 9.98625 26.2512 15 26.2512C19.7025 26.2512 23.0212 25.0012 23.0212 23.7512L22.9963 23.4325C23.575 23.5238 24.24 23.58 25 23.58C27.5637 23.58 29.375 22.8962 29.375 22.215C29.375 20.85 27.6588 19.4875 25 19.4875ZM5 18.75C5.8625 18.75 6.64375 18.4012 7.21 17.835C7.50061 17.5451 7.73105 17.2006 7.88808 16.8213C8.04511 16.4421 8.12562 16.0355 8.125 15.625C8.12582 15.2144 8.04556 14.8077 7.8888 14.4281C7.73205 14.0486 7.50189 13.7038 7.21155 13.4135C6.9212 13.1231 6.57637 12.893 6.19686 12.7362C5.81735 12.5794 5.41061 12.4992 5 12.5C4.58943 12.4993 4.18278 12.5797 3.80334 12.7365C3.4239 12.8933 3.07914 13.1235 2.78882 13.4138C2.49851 13.7041 2.26835 14.0489 2.11154 14.4283C1.95472 14.8078 1.87434 15.2144 1.875 15.625C1.87418 16.0356 1.95444 16.4423 2.1112 16.8219C2.26795 17.2014 2.49811 17.5462 2.78845 17.8365C3.0788 18.1269 3.42363 18.357 3.80314 18.5138C4.18265 18.6706 4.58939 18.7508 5 18.75Z"
@@ -543,7 +539,7 @@
                     </svg>
                 </div>
             </section>
-            <div class="text mx-6 mt-4 text-16px font-inter ">
+            <div class="text mx-6 mt-4 text-16px font-inter  dark:text-white ">
                 <p>See What songs your friends and <br> followers are listening to.</p>
             </div>
             <section id="artisits" class="mx-6  mt-4 ">
@@ -552,8 +548,8 @@
                         style="background-image: url(../images/esther.png);">
                     </div>
                     <div class="text pt-2.5 pl-2">
-                        <h4><a href="" class="font-inter text-base font-semibold">Esther</a></h4>
-                        <p class="font-inter text-sm font-normal">Listening to...</p>
+                        <h4><a href="" class="font-inter text-base font-semibold  dark:text-white">Esther</a></h4>
+                        <p class="font-inter text-sm font-normal  dark:text-white">Listening to...</p>
                     </div>
                     <div class="svg pt-3 pl-28">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -575,8 +571,8 @@
                         style="background-image: url(../images/marjorie.png);">
                     </div>
                     <div class="text pt-2.5 pl-2">
-                        <h4><a href="" class="font-inter text-base font-semibold">Marjorie</a></h4>
-                        <p class="font-inter text-sm font-normal">Listening to...</p>
+                        <h4><a href="" class="font-inter text-base font-semibold  dark:text-white">Marjorie</a></h4>
+                        <p class="font-inter text-sm font-normal  dark:text-white">Listening to...</p>
                     </div>
                     <div class="svg pt-3 pl-28">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -598,8 +594,8 @@
                         style="background-image: url(../images/shane.png);">
                     </div>
                     <div class="text pt-2.5 pl-2">
-                        <h4><a href="" class="font-inter text-base font-semibold">Shane</a></h4>
-                        <p class="font-inter text-sm font-normal">Listening to...</p>
+                        <h4><a href="" class="font-inter text-base font-semibold  dark:text-white">Shane</a></h4>
+                        <p class="font-inter text-sm font-normal  dark:text-white">Listening to...</p>
                     </div>
                     <div class="svg pt-3 pl-28">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -617,7 +613,7 @@
                     </div>
                 </div>
             </section>
-            <p class=" font-inter text-base font-medium  mx-6 flex justify-end">See 10 others</p>
+            <p class=" font-inter text-base font-medium  mx-6 flex justify-end  dark:text-white">See 10 others</p>
             <div id="musicbanner"
                 class="mx-6 mt-6 mb-5 h-413px w-327px rounded-3xl bg-custom-gradient-junoon flex justify-center shadow-box-shadow">
                 <div id="junoon-img" class="h-[287px] w-[267px] bg-cover mt-7     "
