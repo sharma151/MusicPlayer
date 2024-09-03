@@ -43,6 +43,7 @@ module.exports = {
         "custom-orange": "0px 2px 20px 0px #E09E3D",
         "friends-logo": "0px 4px 15px 2px #00000040",
         "box-shadow": "0px 4px 20px 5px #00000040",
+        "darkmode-box-shadow": "0px 4px 20px 5px #333131",
       },
       backgroundImage: {
         "gradient-custom": "linear-gradient(to right, #f3a847, #f6d365)", // Custom gradient
