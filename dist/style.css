@@ -600,12 +600,12 @@ video {
   top: -0.25rem;
 }
 
-.-top-2 {
-  top: -0.5rem;
-}
-
 .-top-2\.5 {
   top: -0.625rem;
+}
+
+.left-5 {
+  left: 1.25rem;
 }
 
 .top-56 {
@@ -622,14 +622,6 @@ video {
 
 .top-\[123px\] {
   top: 123px;
-}
-
-.left-3 {
-  left: 0.75rem;
-}
-
-.left-5 {
-  left: 1.25rem;
 }
 
 .mx-10 {
@@ -801,8 +793,8 @@ video {
   width: 327px;
 }
 
-.w-\[15px\] {
-  width: 15px;
+.w-5 {
+  width: 1.25rem;
 }
 
 .w-\[199px\] {
@@ -843,10 +835,6 @@ video {
 
 .w-\[82px\] {
   width: 82px;
-}
-
-.w-5 {
-  width: 1.25rem;
 }
 
 .flex-col {
