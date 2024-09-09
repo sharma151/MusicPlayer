@@ -157,16 +157,17 @@
         </div>
         <!-- Middle Div -->
         <div id="main" class=" dark:bg-[#171616]   mx-auto">
-            <nav class="main__navbar  flex justify-between pt-5  mx-10 ">
-                <ul class="flex font-inter text-[15px] dark:text-white ">
+            <nav class="main__navbar  grid grid-cols-1 md:grid-cols-3 pt-5  mx-10 ">
+                <ul
+                    class="flex font-inter text-[15px] dark:text-white  xsm:grid-cols-4 xsm:gap-32 md:grid-cols-1 md:gap-0">
                     <li><a href="#" class="px-3">Discover</a></li>
                     <li><a href="#" class="px-3">latest</a></li>
                     <li><a href="#" class="px-3">Trending</a></li>
                     <li><a href="#" class="px-3">Popular</a></li>
                 </ul>
                 <form
-                    class="flex bg-white  w-219px h-6 gap-1 rounded-[40px] shadow-custom stroke-black dark:bg-black  dark:stroke-white ">
-                    <svg class="mt-1  " width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    class="flex bg-white  md:w-219px xsm:w-[630px] h-6 gap-1 rounded-[40px] shadow-custom stroke-black dark:bg-black  dark:stroke-white md:ml-28 xsm:mt-4  md:mt-0 xsm:ml-2  ">
+                    <svg class="mt-1  md:w-4 md:h-4  " viewBox="0 0 16 16" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M11.25 11.25L14.25 14.25" stroke-width="1.5" stroke-linecap="round"
                             stroke-linejoin="round" />
@@ -177,7 +178,7 @@
                     <input type="text" placeholder=" Search" name="search"
                         class="  dark:bg-black focus:outline-none h-6 text-white">
                 </form>
-                <div class="menubar relative top-[-5px] pl-10">
+                <div class="menubar relative md:top-[14px] xsm:-mt-6 xsm:ml-[650px] md:pl-10 md:ml-36">
                     <a href="#">
                         <svg class=" fill-white dark:fill-black stroke-black dark:stroke-white" width="40" height="39"
                             viewBox="0 0 40 39" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -209,7 +210,7 @@
                 </div>
             </nav>
             <div id="main" class="  ">
-                <section class="popular-artists ">
+                <section class="popular-artists  ">
                     <ul class="flex justify-between mx-10 pt-2 dark:text-white">
                         <li class="font-bold text-[20px] font-inter">Popular Artists</li>
                         <li class="text-[15px] font-inter flex"><a href=""> View All</a><svg
@@ -220,43 +221,46 @@
                             </svg>
                         </li>
                     </ul>
-                    <div class="artists flex  mx-10 justify-evenly ">
-                        <div class="kk  ">
+                    <div
+                        class="artists flex  mx-10 justify-evenly  xsm:max-w-[700px] md:max-w-full xsm:overflow-auto  ">
+                        <div class="kk  xsm:min-w-[120px] md:min-w-fit ">
                             <div class=" h-[82px] w-[82px] rounded-full bg-cover bg-center "
                                 style="background-image: url('../images/kk.png');">
                             </div>
                             <p class="pl-8 font-inter text-[16px]  dark:text-white">KK</p>
                         </div>
-                        <div class="arijit singh  ">
+                        <div class="arijit singh  xsm:min-w-[120px] md:min-w-fit ">
                             <div class=" h-[82px] w-[82px] rounded-full bg-cover bg-center "
                                 style="background-image: url('../images/arijit.png');">
                             </div>
                             <p class="font-inter text-[16px]  dark:text-white">Arijit singh</p>
                         </div>
-                        <div class="shreya ghosal  ">
+                        <div class="shreya ghosal  xsm:min-w-[120px] md:min-w-fit  ">
                             <div class=" h-[82px] w-[82px] rounded-full bg-cover bg-center ml-2 "
                                 style="background-image: url('../images/shreya.png');">
                             </div>
                             <p class="font-inter text-[16px]  dark:text-white">Shrey ghosal</p>
                         </div>
-                        <div class="Talwiinder ">
+                        <div class="Talwiinder  xsm:min-w-[120px] md:min-w-fit ">
                             <div class=" h-[82px] w-[82px] rounded-full bg-cover bg-center "
                                 style="background-image: url('../images/talwiinder.png');">
                             </div>
                             <p class="font-inter text-[16px]  dark:text-white">Talwiinder</p>
                         </div>
-                        <div class="akhil  ">
+                        <div class="akhil   xsm:min-w-[120px] md:min-w-fit">
                             <div class=" h-[82px] w-[82px] rounded-full bg-cover bg-center "
                                 style="background-image: url('../images/akhil.png');">
                             </div>
                             <p class="font-inter text-[16px] pl-5  dark:text-white">Akhil</p>
                         </div>
-                        <div class="sidhu moose wala  ">
+                        <div class="sidhu moose wala  xsm:min-w-[120px] md:min-w-fit ">
                             <div class=" h-[82px] w-[82px] rounded-full bg-cover bg-center ml-6"
                                 style="background-image: url('../images/sidhoo.png');">
                             </div>
                             <p class="font-inter text-[16px]  dark:text-white">Sidhu Moose Wala</p>
                         </div>
+
+
                     </div>
                 </section>
                 <ul class="flex justify-between mx-10 pt-2  dark:text-white">
@@ -269,7 +273,7 @@
                     </li>
                 </ul>
                 <section class="trending songs">
-                    <div class="playlist  flex  justify-around mx-10 pt-5 ">
+                    <div class="playlist  flex  justify-around mx-10 pt-5  ">
                         <div class="90ssafarnama p-3">
                             <div class=" h-[248px] w-[210px] bg-cover bg-center rounded-2xl shadow-friends-logo "
                                 style="background-image: url('../images/90ssafarnama.png');">

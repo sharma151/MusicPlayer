@@ -15,7 +15,7 @@ module.exports = {
         orange: "#E09E3D",
       },
       screens: {
-        xsm: "320px",
+        "xsm": "320px",
       },
       width: {
         "199px": "199px",
