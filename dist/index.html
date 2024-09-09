@@ -136,10 +136,23 @@
                     </li>
 
                 </ul>
-                <button id="theme-toggle"
+                <!-- <button id="theme-toggle"
                     class="px-4 mx-8 py-2 rounded-md border-2 border-black dark:text-white dark:border-white">
                     dark/light mode
-                </button>
+                </button> -->
+                <div class="pl-16">
+                    <button onclick="(() => document.body.classList.toggle('dark'))()"
+                        class="h-12 w-12 rounded-lg p-2 bg-slate-300 hover:bg-gray-200 dark:hover:bg-gray-700 dark:bg-slate-100">
+                        <svg class="fill-black block dark:hidden" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+                        </svg>
+                        <svg class="fill-yellow-500 hidden dark:block" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                                fill-rule="evenodd" clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
             </div>
         </div>
         <!-- Middle Div -->
@@ -698,7 +711,7 @@
             </div>
         </div>
         <!--mobile view navbar-->
-        <div class="mobilenavabr flex  xsm:w-[782px] xsm:block md:hidden mx-auto">
+        <div class="mobilenavabr flex  xsm:w-[782px] xsm:block md:hidden mx-auto  dark:bg-[#171616] ">
             <ul class="  dark:text-white  xsm:flex justify-around xsm:w-full  ">
                 <li class="px-4  py-4   hover:bg-hover-background   rounded-t-full">
                     <div class="">
@@ -732,8 +745,8 @@
                 </li>
                 <li class="px-4 py-4   hover:bg-hover-background  rounded-t-full">
                     <div>
-                        <svg class=" fill-current text-black dark:text-white" width="30" height="30" viewBox="0 0 30 30"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="  fill-black dark:fill-white" width="30" height="30" viewBox="0 0 30 30"
+                            xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M15 30C11.0218 30 7.20644 28.4196 4.3934 25.6066C1.58035 22.7936 0 18.9782 0 15C0 11.0218 1.58035 7.20644 4.3934 4.3934C7.20644 1.58035 11.0218 0 15 0C18.9782 0 22.7936 1.58035 25.6066 4.3934C28.4196 7.20644 30 11.0218 30 15C30 18.9782 28.4196 22.7936 25.6066 25.6066C22.7936 28.4196 18.9782 30 15 30ZM19.3687 8.4375C17.0812 8.4375 15.9375 9.375 15.0131 10.5675C14.0869 9.375 12.9431 8.4375 10.6538 8.4375C8.72625 8.4375 6.58687 9.9075 6.58687 13.125C6.58687 15.9356 9.38625 19.5619 12.6731 21.5944C13.6481 22.1963 14.3419 22.4925 15.0131 22.5019C15.6825 22.4925 16.3781 22.1963 17.3512 21.5944C20.6381 19.5619 23.4375 15.9375 23.4375 13.125C23.4375 9.9075 21.3 8.4375 19.3687 8.4375Z" />
                         </svg>
@@ -742,8 +755,8 @@
                 </li>
                 <li class="px-4 py-4    hover:bg-hover-background rounded-t-full">
                     <div class="pt-0.5">
-                        <svg class=" fill-current text-black dark:text-white" width="26" height="26" viewBox="0 0 26 26"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="fill-black dark:fill-white" width="26" height="26" viewBox="0 0 26 26"
+                            xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M18 10.5C18 11.8261 17.4732 13.0979 16.5355 14.0355C15.5979 14.9732 14.3261 15.5 13 15.5C11.6739 15.5 10.4021 14.9732 9.46447 14.0355C8.52678 13.0979 8 11.8261 8 10.5C8 9.17392 8.52678 7.90215 9.46447 6.96447C10.4021 6.02678 11.6739 5.5 13 5.5C14.3261 5.5 15.5979 6.02678 16.5355 6.96447C17.4732 7.90215 18 9.17392 18 10.5Z" />
                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -754,8 +767,8 @@
                 </li>
                 <li class="px-4 py-4   hover:bg-hover-background  rounded-t-full">
                     <div>
-                        <svg class=" fill-current text-black dark:text-white" width="30" height="30" viewBox="0 0 30 30"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="fill-black dark:fill-white" width="30" height="30" viewBox="0 0 30 30"
+                            xmlns="http://www.w3.org/2000/svg">
                             <mask id="mask0_10_181" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0"
                                 width="30" height="30">
                                 <path d="M0 0H30V30H0V0Z" fill="white" />
@@ -775,12 +788,12 @@
                 </li>
                 <li class=" px-4 py-4 rounded-t-full">
                     <button id="theme-toggle">
-                        <svg id="theme-toggle" width="30px" height="30px" viewBox="0 0 24 24" version="1.1"
-                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <svg class="  fill-black dark:fill-white" width="30px" height="30px" viewBox="0 0 24 24"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
 
-                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <g id="ic_fluent_dark_theme_24_regular" fill="#212121" fill-rule="nonzero">
+                            <g stroke="none" stroke-width="1" fill-rule="evenodd">
+                                <g id="ic_fluent_dark_theme_24_regular" fill-rule="nonzero">
                                     <path
                                         d="M12,22 C17.5228475,22 22,17.5228475 22,12 C22,6.4771525 17.5228475,2 12,2 C6.4771525,2 2,6.4771525 2,12 C2,17.5228475 6.4771525,22 12,22 Z M12,20.5 L12,3.5 C16.6944204,3.5 20.5,7.30557963 20.5,12 C20.5,16.6944204 16.6944204,20.5 12,20.5 Z"
                                         id="🎨-Color">
@@ -802,6 +815,7 @@
 
         document.addEventListener('DOMContentLoaded', function () {
             const themeToggleBtn = document.getElementById('theme-toggle');
+            console.log(themeToggleBtn)
             const bodyElement = document.body;
 
             // Check if user has a preferred theme saved in localStorage
