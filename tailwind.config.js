@@ -14,8 +14,8 @@ module.exports = {
         grey: "#514A4A",
         orange: "#E09E3D",
       },
-      screens:{
-        'xsm': '360px',
+      screens: {
+        xsm: "320px",
       },
       width: {
         "199px": "199px",
