@@ -159,14 +159,14 @@
         <div id="main" class=" dark:bg-[#171616]   mx-auto">
             <nav class="main__navbar  grid grid-cols-1 md:grid-cols-3 pt-5  mx-10 ">
                 <ul
-                    class="flex font-inter text-[15px] dark:text-white  xsm:grid-cols-4 xsm:gap-32 md:grid-cols-1 md:gap-0">
+                    class="flex font-inter md:text-[15px] dark:text-white  xsm:grid-cols-4 xsm:gap-20 md:grid-cols-1 md:gap-0 xsm:text-[25px]">
                     <li><a href="#" class="px-3">Discover</a></li>
                     <li><a href="#" class="px-3">latest</a></li>
                     <li><a href="#" class="px-3">Trending</a></li>
                     <li><a href="#" class="px-3">Popular</a></li>
                 </ul>
                 <form
-                    class="flex bg-white  md:w-219px xsm:w-[630px] h-6 gap-1 rounded-[40px] shadow-custom stroke-black dark:bg-black  dark:stroke-white md:ml-28 xsm:mt-4  md:mt-0 xsm:ml-2  ">
+                    class="flex bg-white  md:w-219px xsm:w-[630px] md:h-6 xsm:h-10 gap-1 rounded-[40px] shadow-custom stroke-black dark:bg-black  dark:stroke-white md:ml-28 xsm:mt-4  md:mt-0 xsm:ml-2  ">
                     <svg class="mt-1  md:w-4 md:h-4  " viewBox="0 0 16 16" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M11.25 11.25L14.25 14.25" stroke-width="1.5" stroke-linecap="round"
@@ -176,11 +176,11 @@
                             stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                     <input type="text" placeholder=" Search" name="search"
-                        class="  dark:bg-black focus:outline-none h-6 text-white">
+                        class="  dark:bg-black focus:outline-none md:h-6 xsm:h-10 xsm:w-[570px] md:w-auto dark:text-white">
                 </form>
-                <div class="menubar relative md:top-[14px] xsm:-mt-6 xsm:ml-[650px] md:pl-10 md:ml-36">
-                    <a href="#">
-                        <svg class=" fill-white dark:fill-black stroke-black dark:stroke-white" width="40" height="39"
+                <div class="menubar relative md:top-[30px] xsm:-mt-9 xsm:ml-[645px] md:pl-10 md:ml-36">
+                    <button>
+                        <svg class=" fill-white dark:fill-black stroke-black dark:stroke-white md:w-[40px] md:h-[39px] xsm:w-[70px] xsm:h-[50px]"
                             viewBox="0 0 40 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g filter="url(#filter0_d_10_228)">
                                 <rect x="4" width="32" height="31" rx="12" />
@@ -206,16 +206,16 @@
                                 </filter>
                             </defs>
                         </svg>
-                    </a>
+                    </button>
                 </div>
             </nav>
             <div id="main" class="  ">
                 <section class="popular-artists  ">
                     <ul class="flex justify-between mx-10 pt-2 dark:text-white">
-                        <li class="font-bold text-[20px] font-inter">Popular Artists</li>
-                        <li class="text-[15px] font-inter flex"><a href=""> View All</a><svg
-                                class="mt-1.5 ml-1 stroke-black dark:stroke-white" width="7" height="12" fill="none"
-                                viewBox="0 0 7 12" xmlns="http://www.w3.org/2000/svg">
+                        <li class="font-bold md:text-[20px] xsm:text-[35px] font-inter">Popular Artists</li>
+                        <li class="md:text-[15px] xsm:text-[25px] font-inter flex"><a href=""> View All</a><svg
+                                class="mt-1.5 ml-1 stroke-black dark:stroke-white md:w-2 md:h-3 xsm:w-4 xsm:h-6"
+                                fill="none" viewBox="0 0 7 12" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 11L6 6L1 1" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" />
                             </svg>
@@ -223,38 +223,38 @@
                     </ul>
                     <div
                         class="artists flex  mx-10 justify-evenly  xsm:max-w-[700px] md:max-w-full xsm:overflow-auto  ">
-                        <div class="kk  xsm:min-w-[120px] md:min-w-fit ">
-                            <div class=" h-[82px] w-[82px] rounded-full bg-cover bg-center "
+                        <div class="kk  xsm:min-w-[180px] md:min-w-fit ">
+                            <div class=" md:h-[82px] md:w-[82px] rounded-full bg-cover bg-center xsm:h-[140px] xsm:w-[140px] "
                                 style="background-image: url('../images/kk.png');">
                             </div>
                             <p class="pl-8 font-inter text-[16px]  dark:text-white">KK</p>
                         </div>
-                        <div class="arijit singh  xsm:min-w-[120px] md:min-w-fit ">
-                            <div class=" h-[82px] w-[82px] rounded-full bg-cover bg-center "
+                        <div class="arijit singh  xsm:min-w-[180px] md:min-w-fit ">
+                            <div class="  md:h-[82px] md:w-[82px] rounded-full bg-cover bg-center  xsm:h-[140px] xsm:w-[140px] "
                                 style="background-image: url('../images/arijit.png');">
                             </div>
                             <p class="font-inter text-[16px]  dark:text-white">Arijit singh</p>
                         </div>
-                        <div class="shreya ghosal  xsm:min-w-[120px] md:min-w-fit  ">
-                            <div class=" h-[82px] w-[82px] rounded-full bg-cover bg-center ml-2 "
+                        <div class="shreya ghosal  xsm:min-w-[180px] md:min-w-fit  ">
+                            <div class="  md:h-[82px] md:w-[82px] rounded-full bg-cover bg-center ml-2  xsm:h-[140px] xsm:w-[140px] "
                                 style="background-image: url('../images/shreya.png');">
                             </div>
                             <p class="font-inter text-[16px]  dark:text-white">Shrey ghosal</p>
                         </div>
-                        <div class="Talwiinder  xsm:min-w-[120px] md:min-w-fit ">
-                            <div class=" h-[82px] w-[82px] rounded-full bg-cover bg-center "
+                        <div class="Talwiinder  xsm:min-w-[180px] md:min-w-fit ">
+                            <div class="  md:h-[82px] md:w-[82px] rounded-full bg-cover bg-center  xsm:h-[140px] xsm:w-[140px] "
                                 style="background-image: url('../images/talwiinder.png');">
                             </div>
                             <p class="font-inter text-[16px]  dark:text-white">Talwiinder</p>
                         </div>
-                        <div class="akhil   xsm:min-w-[120px] md:min-w-fit">
-                            <div class=" h-[82px] w-[82px] rounded-full bg-cover bg-center "
+                        <div class="akhil   xsm:min-w-[180px] md:min-w-fit">
+                            <div class="  md:h-[82px] md:w-[82px] rounded-full bg-cover bg-center   xsm:h-[140px] xsm:w-[140px]"
                                 style="background-image: url('../images/akhil.png');">
                             </div>
                             <p class="font-inter text-[16px] pl-5  dark:text-white">Akhil</p>
                         </div>
-                        <div class="sidhu moose wala  xsm:min-w-[120px] md:min-w-fit ">
-                            <div class=" h-[82px] w-[82px] rounded-full bg-cover bg-center ml-6"
+                        <div class="sidhu moose wala  xsm:min-w-[180px] md:min-w-fit ">
+                            <div class=" md:h-[82px] md:w-[82px] rounded-full bg-cover bg-center ml-6  xsm:h-[140px] xsm:w-[140px]"
                                 style="background-image: url('../images/sidhoo.png');">
                             </div>
                             <p class="font-inter text-[16px]  dark:text-white">Sidhu Moose Wala</p>
@@ -264,27 +264,29 @@
                     </div>
                 </section>
                 <ul class="flex justify-between mx-10 pt-2  dark:text-white">
-                    <li class="font-bold text-[20px] font-inter">Trending Songs</li>
-                    <li class="text-[15px] font-inter flex"><a href=""> View All</a><svg
-                            class="mt-1.5 ml-1 stroke-black dark:stroke-white" width="7" height="12" viewBox="0 0 7 12"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <li class="font-bold md:text-[20px] xsm:text-[35px] font-inter">Trending Songs</li>
+                    <li class="md:text-[15px] xsm:text-[25px] font-inter flex"><a href=""> View All</a><svg
+                            class="mt-1.5 ml-1 stroke-black dark:stroke-white  md:w-2 md:h-3 xsm:w-4 xsm:h-6 "
+                            viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 11L6 6L1 1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </li>
                 </ul>
                 <section class="trending songs">
-                    <div class="playlist  flex  justify-around mx-10 pt-5  ">
-                        <div class="90ssafarnama p-3">
-                            <div class=" h-[248px] w-[210px] bg-cover bg-center rounded-2xl shadow-friends-logo "
+                    <div class="playlist mx-10 pt-5 md:flex md:pl-0">
+                        <div class="90ssafarnama p-3 ">
+                            <div class=" md:h-[248px] md:w-[210px] bg-cover bg-center rounded-2xl shadow-friends-logo xsm:w-full xsm:h-80 "
                                 style="background-image: url('../images/90ssafarnama.png');">
                             </div>
                             <div class="text flex">
-                                <p><a href="" class="font-bold font-inter text-[20px] dark:text-white">90s
-                                        Safarnama<br><span class="font-thin text-[16px] ">Playlist</span></a>
+                                <p><a href=""
+                                        class="font-bold font-inter md:text-[20px] xsm:text-[35px] dark:text-white">90s
+                                        Safarnama<br><span
+                                            class="font-thin md:text-[16px] xsm:text-[27px] ">Playlist</span></a>
                                 </p>
-                                <div class="like pt-1 ml-8">
+                                <div class="like pt-1  md:ml-8 xsm:ml-80">
                                     <button>
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        <svg class="md:w-6 md:h-6 xsm:w-9 xsm:h-9 " viewBox="0 0 24 24" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M12 21.35L10.55 20.03C5.4 15.36 2 12.27 2 8.5C2 5.41 4.42 3 7.5 3C9.24 3 10.91 3.81 12 5.08C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.41 22 8.5C22 12.27 18.6 15.36 13.45 20.03L12 21.35Z"
@@ -294,17 +296,19 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="uncutbollywood p-3">
-                            <div class=" h-[248px] w-[210px] bg-cover bg-center rounded-2xl shadow-friends-logo "
+                        <div class="uncutbollywood p-3   ">
+                            <div class=" md:h-[248px] md:w-[210px] bg-cover bg-center rounded-2xl shadow-friends-logo xsm:w-full xsm:h-80  "
                                 style="background-image: url('../images/uncutbollywood.png');">
                             </div>
                             <div class="text flex">
-                                <p><a href="" class="font-bold font-inter text-[20px]  dark:text-white">Uncut
-                                        Bollywood<br><span class="font-thin text-[16px] ">Playlist</span></a>
+                                <p><a href=""
+                                        class="font-bold font-inter md:text-[20px] xsm:text-[35px]  dark:text-white">Uncut
+                                        Bollywood<br><span
+                                            class="font-thin md:text-[16px] xsm:text-[27px] ">Playlist</span></a>
                                 </p>
-                                <div class="like pt-1 ml-4">
+                                <div class="like pt-1 md:ml-4 xsm:ml-80">
                                     <button>
-                                        <svg class="fill-black dark:fill-white" width="20" height="19"
+                                        <svg class="fill-black dark:fill-white md:w-5 md:h-5 xsm:w-8 xsm:h-8"
                                             viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M10.1 15.55L10 15.65L9.89 15.55C5.14 11.24 2 8.39 2 5.5C2 3.5 3.5 2 5.5 2C7.04 2 8.54 3 9.07 4.36H10.93C11.46 3 12.96 2 14.5 2C16.5 2 18 3.5 18 5.5C18 8.39 14.86 11.24 10.1 15.55ZM14.5 0C12.76 0 11.09 0.81 10 2.08C8.91 0.81 7.24 0 5.5 0C2.42 0 0 2.41 0 5.5C0 9.27 3.4 12.36 8.55 17.03L10 18.35L11.45 17.03C16.6 12.36 20 9.27 20 5.5C20 2.41 17.58 0 14.5 0Z" />
@@ -314,16 +318,18 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="PresntingKK p-3">
-                            <div class=" h-[248px] w-[210px] bg-cover bg-center rounded-2xl  shadow-friends-logo"
+                        <div class="PresntingKK p-3 ">
+                            <div class="md:h-[248px] md:w-[210px] bg-cover bg-center rounded-2xl  shadow-friends-logo xsm:w-full xsm:h-80 "
                                 style="background-image: url('../images/presentingkk.png');">
                             </div>
                             <div class="text flex">
-                                <p><a href="" class="font-bold font-inter text-[20px]  dark:text-white">Presenting
-                                        KK<br><span class="font-thin text-[16px] ">Playlist</span></a>
+                                <p><a href=""
+                                        class="font-bold font-inter md:text-[20px] xsm:text-[35px]  dark:text-white">Presenting
+                                        KK<br><span
+                                            class="font-thin md:text-[16px] xsm:text-[27px] ">Playlist</span></a>
                                 </p>
-                                <div class="like pt-1 ml-11"> <button>
-                                        <svg class=" fill-black dark:fill-white" width="20" height="19"
+                                <div class="like pt-1  md:ml-11 xsm:ml-96"> <button>
+                                        <svg class=" fill-black dark:fill-white md:w-5 md:h-5 xsm:w-8 xsm:h-8"
                                             viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M10.1 15.55L10 15.65L9.89 15.55C5.14 11.24 2 8.39 2 5.5C2 3.5 3.5 2 5.5 2C7.04 2 8.54 3 9.07 4.36H10.93C11.46 3 12.96 2 14.5 2C16.5 2 18 3.5 18 5.5C18 8.39 14.86 11.24 10.1 15.55ZM14.5 0C12.76 0 11.09 0.81 10 2.08C8.91 0.81 7.24 0 5.5 0C2.42 0 0 2.41 0 5.5C0 9.27 3.4 12.36 8.55 17.03L10 18.35L11.45 17.03C16.6 12.36 20 9.27 20 5.5C20 2.41 17.58 0 14.5 0Z" />
@@ -335,10 +341,10 @@
                     </div>
                 </section>
                 <ul class="flex justify-between mx-10 mt-4  dark:text-white">
-                    <li class="font-bold text-[20px] font-inter">Recently Played</li>
-                    <li class="text-[15px] font-inter flex"><a href=""> View All</a><svg
-                            class="mt-1.5 ml-1 stroke-black dark:stroke-white" width="7" height="12" viewBox="0 0 7 12"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <li class="font-bold md:text-[20px] xsm:text-[35px] font-inter">Recently Played</li>
+                    <li class="md:text-[15px] xsm:text-[25px] font-inter flex"><a href=""> View All</a><svg
+                            class="mt-1.5 ml-1 stroke-black dark:stroke-white md:w-2 md:h-3 xsm:w-4 xsm:h-6 "
+                            viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 11L6 6L1 1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </li>
@@ -382,7 +388,7 @@
                             <div class="photo h-[80px] w-[80px] bg-cover rounded-full "
                                 style="background-image: url('../images/aajamahi.png');"></div>
                             <div
-                                class="songbar h-[67px]   flex rounded-full pl-20 relative top-[-73px]  shadow-custom  ">
+                                class="songbar h-[67px] xsm:w-96 md:w-auto  flex rounded-full pl-20 relative top-[-73px]  shadow-custom  ">
                                 <p class="font-semibold text-lg pl-1 pt-2 dark:text-white ">Aaja Mahi <br><span
                                         class="font-normal ">AUR</span>
                                 </p>
@@ -432,7 +438,7 @@
                                         <line x1="166.5" y1="5.46392e-08" x2="166.5" y2="26" stroke-width="3" />
                                     </svg>
                                 </div>
-                                <div class="playpause pt-2 pl-4">
+                                <div class="playpause pt-2  md:pl-4 xsm:pl-8">
                                     <button>
                                         <svg width="55" height="55" viewBox="0 0 50 50" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -458,7 +464,8 @@
                         <div class="songbar ml-11 mt-4 h-20   dark:bg-black rounded-full ">
                             <div class="photo h-[80px] w-[80px] bg-cover rounded-full"
                                 style="background-image: url('../images/images.png');"></div>
-                            <div class="songbar h-[67px]   flex rounded-full pl-20 relative top-[-73px] shadow-custom">
+                            <div
+                                class="songbar h-[67px] xsm:w-96 md:w-auto   flex rounded-full pl-20 relative top-[-73px] shadow-custom">
                                 <p class="font-semibold text-lg pl-1 pt-2 dark:text-white">Love <br><span
                                         class="font-normal  ">Zehr
                                         Vibe</span>
@@ -509,7 +516,7 @@
                                         <line x1="166.5" y1="5.46392e-08" x2="166.5" y2="26" stroke-width="3" />
                                     </svg>
                                 </div>
-                                <div class="playpause pt-2 pl-4">
+                                <div class="playpause pt-2 md:pl-4 xsm:pl-9 ">
                                     <button>
                                         <svg width="55" height="55" viewBox="0 0 50 50" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
