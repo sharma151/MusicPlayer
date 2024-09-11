@@ -611,11 +611,6 @@ video {
   margin-right: auto;
 }
 
-.mx-0 {
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -1285,10 +1280,6 @@ video {
     display: flex;
   }
 
-  .xsm\:grid {
-    display: grid;
-  }
-
   .xsm\:hidden {
     display: none;
   }
@@ -1317,76 +1308,12 @@ video {
     height: 140px;
   }
 
-  .xsm\:h-\[50px\] {
-    height: 50px;
-  }
-
-  .xsm\:h-full {
-    height: 100%;
-  }
-
-  .xsm\:h-screen {
-    height: 100vh;
-  }
-
-  .xsm\:h-auto {
-    height: auto;
-  }
-
-  .xsm\:h-\[1000px\] {
-    height: 1000px;
-  }
-
-  .xsm\:h-\[\] {
-    height: ;
-  }
-
-  .xsm\:h-\[800px\] {
-    height: 800px;
-  }
-
-  .xsm\:h-\[900px\] {
-    height: 900px;
-  }
-
-  .xsm\:h-\[0px\] {
-    height: 0px;
-  }
-
-  .xsm\:h-\[10px\] {
-    height: 10px;
-  }
-
-  .xsm\:h-\[150px\] {
-    height: 150px;
-  }
-
-  .xsm\:h-\[1500px\] {
-    height: 1500px;
-  }
-
-  .xsm\:h-\[160px\] {
-    height: 160px;
-  }
-
-  .xsm\:h-\[1600px\] {
-    height: 1600px;
-  }
-
-  .xsm\:h-\[1700px\] {
-    height: 1700px;
-  }
-
   .xsm\:h-\[1650px\] {
     height: 1650px;
   }
 
-  .xsm\:h-\[1620px\] {
-    height: 1620px;
-  }
-
-  .xsm\:max-h-screen {
-    max-height: 100vh;
+  .xsm\:h-\[50px\] {
+    height: 50px;
   }
 
   .xsm\:w-4 {
@@ -1421,44 +1348,16 @@ video {
     width: 70px;
   }
 
+  .xsm\:w-\[780px\] {
+    width: 780px;
+  }
+
   .xsm\:w-\[782px\] {
     width: 782px;
   }
 
   .xsm\:w-full {
     width: 100%;
-  }
-
-  .xsm\:w-screen {
-    width: 100vw;
-  }
-
-  .xsm\:w-\[500px\] {
-    width: 500px;
-  }
-
-  .xsm\:w-\[900px\] {
-    width: 900px;
-  }
-
-  .xsm\:w-\[00px\] {
-    width: 00px;
-  }
-
-  .xsm\:w-\[7500px\] {
-    width: 7500px;
-  }
-
-  .xsm\:w-\[750px\] {
-    width: 750px;
-  }
-
-  .xsm\:w-\[770px\] {
-    width: 770px;
-  }
-
-  .xsm\:w-\[780px\] {
-    width: 780px;
   }
 
   .xsm\:min-w-\[180px\] {
@@ -1475,10 +1374,6 @@ video {
 
   .xsm\:flex-col {
     flex-direction: column;
-  }
-
-  .xsm\:items-center {
-    align-items: center;
   }
 
   .xsm\:justify-center {
@@ -1517,11 +1412,6 @@ video {
 @media (min-width: 768px) {
   .md\:top-\[30px\] {
     top: 30px;
-  }
-
-  .md\:mx-6 {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
   }
 
   .md\:ml-11 {
