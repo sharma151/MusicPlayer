@@ -554,6 +554,46 @@ video {
   --tw-contain-style:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 320px) {
+  .container {
+    max-width: 320px;
+  }
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
 .absolute {
   position: absolute;
 }
@@ -609,6 +649,56 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mx-11 {
+  margin-left: 2.75rem;
+  margin-right: 2.75rem;
+}
+
+.mx-\[300px\] {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.mx-9 {
+  margin-left: 2.25rem;
+  margin-right: 2.25rem;
+}
+
+.mx-96 {
+  margin-left: 24rem;
+  margin-right: 24rem;
+}
+
+.mx-52 {
+  margin-left: 13rem;
+  margin-right: 13rem;
+}
+
+.mx-32 {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-40 {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.mx-44 {
+  margin-left: 11rem;
+  margin-right: 11rem;
 }
 
 .mb-5 {
@@ -683,6 +773,18 @@ video {
   margin-top: 277px;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.mt-2\.5 {
+  margin-top: 0.625rem;
+}
+
 .block {
   display: block;
 }
@@ -747,6 +849,14 @@ video {
   height: 80px;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
 .w-12 {
   width: 3rem;
 }
@@ -791,6 +901,38 @@ video {
   width: 80px;
 }
 
+.w-screen {
+  width: 100vw;
+}
+
+.w-\[700px\] {
+  width: 700px;
+}
+
+.w-\[750px\] {
+  width: 750px;
+}
+
+.w-\[780px\] {
+  width: 780px;
+}
+
+.w-\[785px\] {
+  width: 785px;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[760px\] {
+  width: 760px;
+}
+
+.w-full {
+  width: 100%;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -829,6 +971,14 @@ video {
 
 .gap-2 {
   gap: 0.5rem;
+}
+
+.justify-self-start {
+  justify-self: start;
+}
+
+.justify-self-center {
+  justify-self: center;
 }
 
 .rounded-2xl {
@@ -972,6 +1122,11 @@ video {
   padding-bottom: 1rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .pb-6 {
   padding-bottom: 1.5rem;
 }
@@ -1054,6 +1209,10 @@ video {
 
 .pt-7 {
   padding-top: 1.75rem;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .font-inter {
@@ -1183,6 +1342,10 @@ video {
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
+.\*\:justify-center > * {
+  justify-content: center;
+}
+
 .hover\:bg-gray-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
@@ -1280,6 +1443,10 @@ video {
     display: flex;
   }
 
+  .xsm\:grid {
+    display: grid;
+  }
+
   .xsm\:hidden {
     display: none;
   }
@@ -1356,6 +1523,18 @@ video {
     width: 100%;
   }
 
+  .xsm\:w-screen {
+    width: 100vw;
+  }
+
+  .xsm\:w-\[7px\] {
+    width: 7px;
+  }
+
+  .xsm\:w-\[760px\] {
+    width: 760px;
+  }
+
   .xsm\:min-w-\[180px\] {
     min-width: 180px;
   }
@@ -1402,6 +1581,10 @@ video {
 
   .xsm\:text-\[35px\] {
     font-size: 35px;
+  }
+
+  .xsm\:text-\[30px\] {
+    font-size: 30px;
   }
 }
 
@@ -1482,6 +1665,14 @@ video {
     height: 82px;
   }
 
+  .md\:h-\[200px\] {
+    height: 200px;
+  }
+
+  .md\:h-auto {
+    height: auto;
+  }
+
   .md\:w-2 {
     width: 0.5rem;
   }
@@ -1516,6 +1707,10 @@ video {
 
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:w-\[200px\] {
+    width: 200px;
   }
 
   .md\:min-w-fit {
@@ -1567,6 +1762,14 @@ video {
     font-size: 20px;
   }
 
+  .md\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .md\:text-\[19px\] {
+    font-size: 19px;
+  }
+
   .md\:shadow-custom-shadow {
     --tw-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.25);
     --tw-shadow-colored: 0px 4px 20px 5px var(--tw-shadow-color);
@@ -1577,5 +1780,9 @@ video {
 @media (min-width: 1024px) {
   .lg\:block {
     display: block;
+  }
+
+  .lg\:hidden {
+    display: none;
   }
 }
