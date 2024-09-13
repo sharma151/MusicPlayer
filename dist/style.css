@@ -1248,10 +1248,6 @@ video {
 }
 
 @media (min-width: 320px) {
-  .xsm\:fixed {
-    position: fixed;
-  }
-
   .xsm\:-mt-9 {
     margin-top: -2.25rem;
   }
@@ -1282,10 +1278,6 @@ video {
 
   .xsm\:flex {
     display: flex;
-  }
-
-  .xsm\:grid {
-    display: grid;
   }
 
   .xsm\:hidden {
@@ -1392,10 +1384,6 @@ video {
     overflow: auto;
   }
 
-  .xsm\:overflow-x-hidden {
-    overflow-x: hidden;
-  }
-
   .xsm\:pl-8 {
     padding-left: 2rem;
   }
@@ -1414,12 +1402,6 @@ video {
 
   .xsm\:text-\[35px\] {
     font-size: 35px;
-  }
-
-  .xsm\:shadow-none {
-    --tw-shadow: 0 0 #0000;
-    --tw-shadow-colored: 0 0 #0000;
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 }
 
