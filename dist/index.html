@@ -7,9 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-    </style> -->
+
 
 
 
@@ -18,8 +16,8 @@
 
 
 
-<body class="dark background">
-    <div class="container flex  dark:bg-[#171616] xsm:flex-col md:flex-row mx-auto">
+<body class="dark">
+    <div class="container flex  dark:bg-[#171616] xsm:flex-col md:flex-row mx-auto ">
         <!--  first div Div -->
         <div id="aside"
             class=" shadow-custom-shadow  dark:bg-[#171616] dark:shadow-darkmode-box-shadows  xsm:hidden md:block">
@@ -159,9 +157,8 @@
             </div>
         </div>
         <!-- Middle Div -->
-        <div id="main" class=" dark:bg-[#171616]  mx-auto   ">
-
-            <div class=" w-screen   xsm:w-full xsm:overflow-x-hidden md:w-[760px]">
+        <div id="main" class=" dark:bg-[#171616]   mx-auto   ">
+            <div class=" w-screen   xsm:w-full overflow-x-hidden md:w-[760px] ">
                 <nav class="main__navbar  grid grid-cols-1 md:grid-cols-3 pt-5  md:mx-10 ">
                     <ul
                         class="flex font-inter md:text-[15px] dark:text-white  xsm:grid-cols-4  md:grid-cols-1  xsm:text-[14px]">
@@ -216,7 +213,7 @@
                     </div>
                 </nav>
                 <section class="popular-artists  ">
-                    <ul class="flex justify-between md:mx-10  pt-2 dark:text-white">
+                    <ul class="flex justify-between md:mx-10  pt-2 dark:text-white md:flex-wrap ">
                         <li class="font-bold md:text-[20px] xsm:text-[14px] font-inter">Popular Artists</li>
                         <li class="md:text-[15px] xsm:text-[14px] font-inter flex"><a href=""> View All</a><svg
                                 class="md:mt-1.5 ml-1 stroke-black dark:stroke-white md:w-2 md:h-3 xsm:w-1.5 xsm:mt-0 "
@@ -227,8 +224,8 @@
                         </li>
                     </ul>
                     <div
-                        class="artists flex  md:mx-10  xsm:max-w-[280px] md:max-w-full xsm:overflow-auto justify-between ">
-                        <div class="kk  xsm:min-w-[95px] md:min-w-fit ">
+                        class="artists flex  md:mx-10  xsm:max-w-[280px] md:max-w-full xsm:overflow-auto justify-between  md:flex-wrap">
+                        <div class="kk  xsm:min-w-[95px] ">
                             <div class=" md:h-[82px] md:w-[82px] rounded-full bg-cover bg-center xsm:h-[70px] xsm:w-[70px] xsm:ml-3 "
                                 style="background-image: url('../images/kk.png');">
                             </div>
@@ -281,7 +278,7 @@
                         </svg>
                     </li>
                 </ul>
-                <section class="trending songs ">
+                <section class="trending songs  ">
                     <div class="playlist md:mx-10  pt-5 md:flex md:pl-0  xsm:ml-8">
                         <div class="90ssafarnama md:p-3 ">
                             <div class=" md:h-[200px] md:w-[200px] bg-cover bg-center rounded-2xl shadow-friends-logo xsm:w-56 xsm:h-56"
@@ -729,7 +726,6 @@
                 </div>
             </div>
         </div>
-
         <!-- mobile view activity view -->
         <div id="Activity" class=" md:shadow-custom-shadow  sm:shadow-none  dark:bg-[#171616]   hidden  ">
 
@@ -910,10 +906,7 @@
             </div>
 
         </div>
-
-
         <!-- mobile view navbar -->
-
         <div class="mobilenavabr  xsm:block md:hidden   dark:bg-[#171616] ">
             <ul class="  dark:text-white flex justify-between mx-3">
                 <li class="px-4  py-4   hover:bg-hover-background   rounded-t-full">
@@ -1010,8 +1003,6 @@
                 </li>
             </ul>
         </div>
-
-
     </div>
 
 

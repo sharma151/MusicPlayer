@@ -15,7 +15,8 @@ module.exports = {
         orange: "#E09E3D",
       },
       screens: {
-        "xsm": "320px",
+        xsm: "320px",
+        // 'md-lg': {'min': '768px', 'max': '1024px'},
       },
       width: {
         "199px": "199px",
