@@ -1709,12 +1709,6 @@ video {
   }
 }
 
-@media (min-width: 1024px) {
-  .lg\:block {
-    display: block;
-  }
-}
-
 @media (min-width: 1280px) {
   .xl\:block {
     display: block;
