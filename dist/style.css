@@ -864,10 +864,6 @@ video {
   width: 80px;
 }
 
-.w-screen {
-  width: 100vw;
-}
-
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -1648,10 +1644,6 @@ video {
   .md\:min-w-fit {
     min-width: -moz-fit-content;
     min-width: fit-content;
-  }
-
-  .md\:min-w-\[760px\] {
-    min-width: 760px;
   }
 
   .md\:max-w-full {
