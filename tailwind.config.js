@@ -16,7 +16,7 @@ module.exports = {
       },
       screens: {
         xsm: "320px",
-        // 'md-lg': {'min': '768px', 'max': '1024px'},
+        // md: { min: "800px", max: "1023px" },
       },
       width: {
         "199px": "199px",
