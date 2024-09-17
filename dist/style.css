@@ -1650,6 +1650,10 @@ video {
     min-width: fit-content;
   }
 
+  .md\:min-w-\[760px\] {
+    min-width: 760px;
+  }
+
   .md\:max-w-full {
     max-width: 100%;
   }
