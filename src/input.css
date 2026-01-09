@@ -3,3 +3,10 @@
 @tailwind utilities;
 
 @import "../src/style.css";
+
+.light {
+  background-color: white;
+}
+.dark {
+  background-color: #171616;
+}
